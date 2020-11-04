@@ -15,17 +15,9 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<style>
-#more {display: none;}
-</style>
-
 </head>
 
-<body style="height:1500px">
+<body style="height:700px">
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <a class="navbar-brand" href="Home.html">MANCHESTER UNITED</a>
@@ -55,192 +47,45 @@
 
 </div>
 
-<section>
-  <div class="container">
-    <h1 class="text-center pt-4">About us</h1> 
-    <hr class="w-100 pt-4"> 
-
-    <div class="row">
-      <div class="col">
-        <img src="D:\Mine\Picture saved\players\9e0de1cbad45aeba71831c0ba1f397f9.jpg" width="400" height="500">
-      </div>
-      <div class="col">
-        <h2>Our Academy</h2>
-        <br>
-        <p>We operate a unique, age-appropriate programme and provide our players with experiences that will help them to understand the values of Manchester United, to grow and succeed in life, and to play professional football at the highest level.
-
-To do that, we employ experts with a wide range of skills both on and off the pitch, who are all dedicated to preserving the joys of childhood and avoiding premature professionalism.
-
-Our ambition is to be a true family and community Academy and to always act with honesty, integrity, respect and humility.
-
-Supporting and trusting young people is embedded into the history and the culture of Manchester United and we are renowned worldwide as a leading youth development organisation.
-</span></p> <br>
-         <button onclick="myFunction()" id="myBtn">Read more</button>
-
-         <script>
-         function myFunction() {
-          var dots = document.getElementById("dots");
-          var moreText = document.getElementById("more");
-          var btnText = document.getElementById("myBtn");
-
-          if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Read more"; 
-          moreText.style.display = "none";
-          } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Read less"; 
-          moreText.style.display = "inline";
-          }
-         }
-         </script>
-
-
-      </div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="D:\Mine\Picture saved\players\308372.jpg" alt="img1" width="1550" height="700">
+      <div class="carousel-caption">
+        <h2>Wayne Rooney</h2>
+        <h4>When the Red Devil's blood is always flowing in the heart</h4>
+      </div>   
     </div>
-</section>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-.fa {
-  padding: 5px;
-  font-size: 15px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-</style>
-
-<div class="container">
-  <br>
-  <br>
-<h2 class="text-center pt-4"> Meet The Team </h2>
-<br>
-<br>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="D:\hoc tap\Ki 7\web2\asssg\GettyImages-1067242072.jpg" alt="" style="width:100%">
-      <div class="container">
-        <h2>Michael Carrick</h2>
-        <p class="title">Trainer Assistant</p>
-        <p>“Everything will be okay.”</p>
-        <p></p>
-        <p><button class="button">Contact</button></p>
-      </div>
+    <div class="carousel-item">
+      <img src="D:\Mine\Picture saved\players\23415.jpg" alt="img2" width="1550" height="700">
+      <div class="carousel-caption">
+        <h2>Players of year arward 2019</h2>
+        <h4>Vinh danh nhung nghe si hai 2019</h4>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="D:\Mine\Picture saved\manchester-united-wallpapers-1920x1080_5965048.jpg" alt="img3" width="1550" height="700">
+      <div class="carousel-caption">
+        <h2>Manchester United</h2>
+        <h4>Glory Glory</h4>
+      </div>   
     </div>
   </div>
-
- 
-
-<div class="footer">
-  <br>
-<a href="https://www.facebook.com" class="fa fa-facebook"></a>
-<a href="https://twitter.com" class="fa fa-twitter"></a>
-<a href="https://www.google.com" class="fa fa-google"></a>
-<a href="https://www.youtube.com" class="fa fa-youtube"></a>
-<a href="https://www.instagram.com" class="fa fa-instagram"></a>
-  <p>Footer</p>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
 </div>
 
 </body>
+
+
 
 </html>
